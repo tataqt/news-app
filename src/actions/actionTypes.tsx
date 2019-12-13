@@ -6,9 +6,9 @@ export const loadNews = () => {
     }
 }
 
-export const addNews = (article) => {
+export const addNews = () => {
     return {
         type: ADD_NEWS,
-        article
+        
     }
 }
