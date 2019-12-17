@@ -22,7 +22,7 @@ export class Home extends Component {
     }
 
     componentDidMount() {
-      fetch("http://localhost:4000/articles")
+      fetch("http://localhost:3000/articles")
         .then(res => res.json())
         .then(
           (result) => {

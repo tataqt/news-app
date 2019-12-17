@@ -1,4 +1,4 @@
-import { HOME, ACCOUNT, ABOUT, NEWS, SING_IN } from '../constants/routes';
+import { HOME, ACCOUNT, ABOUT, NEWS, SIGN_IN } from '../constants/routes';
 
 export interface Route {
     id: number;
@@ -37,7 +37,7 @@ export const NonAuthRoutes: Route[] = [
     },
     {
         id: 6,
-        path: SING_IN,
+        path: SIGN_IN,
         description: 'Sign In'
     }
 ];

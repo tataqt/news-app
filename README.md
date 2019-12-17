@@ -2,7 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## To create node modules
 npm install react-scripts --save
-yarn add firebase json-server react-redux react-router-dom react-scripts redux @types/react @types/react-dom @types/react-redux @types/react-router-dom @types/redux
+yarn add firebase json-server react-redux react-router-dom react-scripts redux @types/react @types/react-dom @types/react-redux @types/react-router-dom @types/redux @types/jest typescript @types/node
+npm install -g json-server
 
 ## Available Scripts
 In the project directory, you can run:

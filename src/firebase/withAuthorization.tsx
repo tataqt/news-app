@@ -13,7 +13,7 @@ export const withAuthorization = (condition: any) => (Component: any) => {
     public componentDidMount() {
       firebase.auth.onAuthStateChanged(authUser => {
         if (!condition(authUser)) {
-          this.props.history.push(routes.SING_IN);
+          this.props.history.push(routes.SIGN_IN);
         }
       });
     }
