@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## To create node modules
-npm install react-scripts --save
+npm install react-scripts --save <br />
 yarn add firebase json-server react-redux react-router-dom react-scripts redux @types/react @types/react-dom @types/react-redux @types/react-router-dom @types/redux @types/jest typescript @types/node
 npm install -g json-server
 
